@@ -1,0 +1,30 @@
+.tag {
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ghost {
+    background: none;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+.outlined {
+    background: none;
+    border: 1px solid var(--main);
+    color: var(--main);
+}
+.success {
+    background: var(--green);
+    color: var(--pros);
+}
+.dangerous {
+    background: var(--cons);
+    color: white;
+}
